@@ -1,7 +1,5 @@
-## Introduction
-This repository contains a Streamlit-based web application for estimating privacy parameters, specifically epsilon, delta, and sensitivity, based on the amount of data. Privacy parameters are essential in differential privacy, a mathematical framework for quantifying and guaranteeing privacy.
+This repository contains code to help estimate privacy parameters, specifically epsilon, delta, and sensitivity, based on the amount of data. Privacy parameters are essential in differential privacy, a mathematical framework for quantifying and guaranteeing privacy.
 
-## What are Epsilon and Delta?
 # Epsilon (ε)
 - Epsilon, also known as the privacy budget, quantifies the privacy loss in a differentially private algorithm. A smaller epsilon value indicates stronger privacy, meaning the algorithm's output is less dependent on any single input data point.
 
@@ -23,8 +21,3 @@ Recent research in differential privacy focuses on optimizing the trade-off betw
 - Privacy Amplification: Methods to enhance privacy guarantees, such as through data shuffling and subsampling.
 - Analytical Tools: Development of tools and frameworks for precise calculation of privacy parameters, considering complex data distributions and dependencies.
 
-# Technologies Used
-- Python 3.8+
-- Streamlit
-- NumPy
-- Matplotlib
